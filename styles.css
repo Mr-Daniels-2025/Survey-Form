@@ -55,11 +55,16 @@ body {
   }
   
   #chooseOne-label {
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 15px; /* Adjust as needed */
   }
   
   #checkbox-label {
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 25px; /* Adjust as needed */
+    margin-bottom: 20px;
+  }
+  
+  #comments-label {
+    margin-top: 20px;
   }
   
   /* Adjusting "Choose one" and "Select all that apply" layout */
