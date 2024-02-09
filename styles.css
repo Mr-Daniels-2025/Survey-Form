@@ -54,6 +54,34 @@ body {
     margin-right: 5px;
   }
   
+  #chooseOne-label {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  #checkbox-label {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  /* Adjusting "Choose one" and "Select all that apply" layout */
+  label[for="radio1"],
+  label[for="radio2"],
+  label[for="checkbox1"],
+  label[for="checkbox2"] {
+    display: inline-block;
+    width: auto;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+  
+  /* Adjusting "Select all that apply" spacing */
+  label[for="checkbox1"],
+  label[for="checkbox2"] {
+    display: inline-block;
+    width: auto;
+    margin-bottom: 12px; /* Adjust as needed */
+    margin-right: 20px;
+  }
+  
   /* Textarea Styles */
   textarea {
     resize: vertical;
