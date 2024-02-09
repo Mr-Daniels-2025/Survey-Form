@@ -1,1 +1,87 @@
-
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Form Container Styles */
+  #survey-form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading Styles */
+  #title {
+    text-align: center;
+  }
+  
+  /* Description Styles */
+  #description {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Label Styles */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Input Styles */
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Select Styles */
+  select {
+    height: 38px; /* Adjust as needed */
+  }
+  
+  /* Radio & Checkbox Styles */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Textarea Styles */
+  textarea {
+    resize: vertical;
+  }
+  
+  /* Button Styles */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* Optional: Form Layout Adjustments */
+  @media (max-width: 600px) {
+    #survey-form {
+      width: 80%;
+    }
+  }
